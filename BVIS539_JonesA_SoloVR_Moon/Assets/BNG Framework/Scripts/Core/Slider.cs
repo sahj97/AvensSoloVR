@@ -26,8 +26,8 @@ namespace BNG {
         public FloatEvent onSliderChange;
         
         float lastSliderPercentage;
-        float slideRangeLow = -0.15f;
-        float slideRangeHigh = 0.15f;
+        float slideRangeLow = 1f;
+        float slideRangeHigh = 100f;
         float slideRange;
 
         void Start() {
